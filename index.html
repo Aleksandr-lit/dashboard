@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Dashboard</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231229112413">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<div class="header__image">
+						<img src="img/logo.svg" alt="Logo">
+					</div>
+					<span>v.01</span>
+				</a>
+				<h1 class="header__greetings">Hello Evano 👋🏼,</h1>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div data-tabs class="menu">
+					<nav data-tabs-titles class="menu__navigation">
+						<button type="button" class="menu__title">
+							<div class="menu__title-image _icon-dashb"> </div>
+							<span>Dashboard</span>
+						</button>
+						<button type="button" class="menu__title">
+							<div class="menu__title-image _icon-prod"> </div>
+							<span>Product</span>
+							<div class="_icon-arrow-right"></div>
+						</button>
+						<button type="button" class="menu__title _tab-active">
+							<div class="menu__title-image _icon-user-square-1"></div>
+							<span>Customers</span>
+							<div class="_icon-arrow-right"></div>
+						</button>
+						<button type="button" class="menu__title">
+							<div class="menu__title-image _icon-wallet-money"></div>
+							<span>Income</span>
+							<div class="_icon-arrow-right"></div>
+						</button>
+						<button type="button" class="menu__title">
+							<div class="menu__title-image _icon-discount-shape"></div>
+							<span>Promote</span>
+							<div class="_icon-arrow-right"></div>
+						</button>
+						<button type="button" class="menu__title">
+							<div class="menu__title-image _icon-help"></div>
+							<span>Help</span>
+							<div class="_icon-arrow-right"></div>
+						</button>
+						<div class="user">
+							<a href="#" class="user__image">
+								<picture><source srcset="img/user.webp" type="image/webp"><img src="img/user.png" alt="User"></picture>
+							</a>
+							<div class="user__info">
+								<a href="#" class="user__name">Evano</a>
+								<div class="user__proffession">Project Manager</div>
+							</div>
+						</div>
+					</nav>
+					<div data-tabs-body class="menu__content">
+						<div class="menu__body">
+						</div>
+						<div class="menu__body">
+							<div class="menu__body-header">
+								<div class="menu__block">
+									<span class="menu__customers">All Products</span>
+									<span class="menu__members">Active Members</span>
+								</div>
+								<input class="menu__search" type="search" name="form[]" data-error="Помилка" placeholder="Search">
+							</div>
+							<div class="table">
+								<div class="table__header">
+									<div class="table__cell _name">Customer Name</div>
+									<div class="table__cell _company">Company</div>
+									<div class="table__cell _phone">Phone Number</div>
+									<div class="table__cell _email">Email</div>
+									<div class="table__cell _country">Country</div>
+									<div class="table__cell _status">Status</div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Floyd Miles</div>
+									<div class="table__cell _company">Yahoo</div>
+									<div class="table__cell _phone">(205) 555-0100</div>
+									<div class="table__cell">floyd@yahoo.com</div>
+									<div class="table__cell">Kiribati</div>
+									<div class="table__cell _inactive"><span>Inactive</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Jane Cooper</div>
+									<div class="table__cell _company">Microsoft</div>
+									<div class="table__cell _phone">(225) 555-0118</div>
+									<div class="table__cell">jane@microsoft.com</div>
+									<div class="table__cell">United States</div>
+									<div class="table__cell _active"><span>Active</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Ronald Richards</div>
+									<div class="table__cell _company">Adobe</div>
+									<div class="table__cell _phone">(302) 555-0107</div>
+									<div class="table__cell">ronald@adobe.com</div>
+									<div class="table__cell">Israel</div>
+									<div class="table__cell _inactive"><span>Inactive</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Marvin McKinney</div>
+									<div class="table__cell _company">Tesla</div>
+									<div class="table__cell _phone">(252) 555-0126</div>
+									<div class="table__cell">marvin@tesla.com</div>
+									<div class="table__cell">Iran</div>
+									<div class="table__cell _active"><span>Active</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Jerome Bell</div>
+									<div class="table__cell _company">Google</div>
+									<div class="table__cell _phone">(629) 555-0129</div>
+									<div class="table__cell">jerome@google.com</div>
+									<div class="table__cell">Réunion</div>
+									<div class="table__cell _active"><span>Active</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Kathryn Murphy</div>
+									<div class="table__cell _company">Microsoft</div>
+									<div class="table__cell _phone">(406) 555-0120</div>
+									<div class="table__cell">kathryn@microsoft.com</div>
+									<div class="table__cell">Curaçao</div>
+									<div class="table__cell _active"><span>Active</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Jacob Jones</div>
+									<div class="table__cell _company">Yahoo</div>
+									<div class="table__cell _phone">(208) 555-0112</div>
+									<div class="table__cell">jacob@yahoo.com</div>
+									<div class="table__cell">Brazil</div>
+									<div class="table__cell _active"><span>Active</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Kristin Watson</div>
+									<div class="table__cell _company">Facebook</div>
+									<div class="table__cell _phone">(704) 555-0127</div>
+									<div class="table__cell">kristin@facebook.com</div>
+									<div class="table__cell">Åland Islands</div>
+									<div class="table__cell _inactive"><span>Inactive</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="menu__body">
+							<div class="menu__body-header">
+								<div class="menu__block">
+									<span class="menu__customers">All Customers</span>
+									<span class="menu__members">Active Members</span>
+								</div>
+								<input class="menu__search" type="search" name="form[]" data-error="Помилка" placeholder="Search">
+							</div>
+							<div class="table">
+								<div class="table__header">
+									<div class="table__cell _name">Customer Name</div>
+									<div class="table__cell _company">Company</div>
+									<div class="table__cell _phone">Phone Number</div>
+									<div class="table__cell _email">Email</div>
+									<div class="table__cell _country">Country</div>
+									<div class="table__cell _status">Status</div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Jane Cooper</div>
+									<div class="table__cell _company">Microsoft</div>
+									<div class="table__cell _phone">(225) 555-0118</div>
+									<div class="table__cell">jane@microsoft.com</div>
+									<div class="table__cell">United States</div>
+									<div class="table__cell _active"><span>Active</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Floyd Miles</div>
+									<div class="table__cell _company">Yahoo</div>
+									<div class="table__cell _phone">(205) 555-0100</div>
+									<div class="table__cell">floyd@yahoo.com</div>
+									<div class="table__cell">Kiribati</div>
+									<div class="table__cell _inactive"><span>Inactive</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Ronald Richards</div>
+									<div class="table__cell _company">Adobe</div>
+									<div class="table__cell _phone">(302) 555-0107</div>
+									<div class="table__cell">ronald@adobe.com</div>
+									<div class="table__cell">Israel</div>
+									<div class="table__cell _inactive"><span>Inactive</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Marvin McKinney</div>
+									<div class="table__cell _company">Tesla</div>
+									<div class="table__cell _phone">(252) 555-0126</div>
+									<div class="table__cell">marvin@tesla.com</div>
+									<div class="table__cell">Iran</div>
+									<div class="table__cell _active"><span>Active</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Jerome Bell</div>
+									<div class="table__cell _company">Google</div>
+									<div class="table__cell _phone">(629) 555-0129</div>
+									<div class="table__cell">jerome@google.com</div>
+									<div class="table__cell">Réunion</div>
+									<div class="table__cell _active"><span>Active</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Kathryn Murphy</div>
+									<div class="table__cell _company">Microsoft</div>
+									<div class="table__cell _phone">(406) 555-0120</div>
+									<div class="table__cell">kathryn@microsoft.com</div>
+									<div class="table__cell">Curaçao</div>
+									<div class="table__cell _active"><span>Active</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Jacob Jones</div>
+									<div class="table__cell _company">Yahoo</div>
+									<div class="table__cell _phone">(208) 555-0112</div>
+									<div class="table__cell">jacob@yahoo.com</div>
+									<div class="table__cell">Brazil</div>
+									<div class="table__cell _active"><span>Active</span></div>
+								</div>
+								<div class="table__row">
+									<div class="table__cell _name">Kristin Watson</div>
+									<div class="table__cell _company">Facebook</div>
+									<div class="table__cell _phone">(704) 555-0127</div>
+									<div class="table__cell">kristin@facebook.com</div>
+									<div class="table__cell">Åland Islands</div>
+									<div class="table__cell _inactive"><span>Inactive</span></div>
+								</div>
+							</div>
+							<div class="menu__body-footer">
+								<span class="menu__show-data">Showing data 1 to 8 of 256K entries</span>
+								<div class="pagination">
+									<ul class="pagination__page-numbers">
+										<li class="pagination__item">
+											<a href="#" class="pagination__page-prev">
+												<svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M2.936 6.392L0.176 3.668L2.936 0.944H4.664L1.892 3.668L4.664 6.392H2.936Z" fill="#404B52" />
+												</svg>
+											</a>
+										</li>
+										<li class="pagination__item">
+											<span class="pagination__page-number">1</span>
+										</li>
+										<li class="pagination__item">
+											<a href="#" class="pagination__page-number">2</a>
+										</li>
+										<li class="pagination__item">
+											<a href="#" class="pagination__page-number">3</a>
+										</li>
+										<li class="pagination__item">
+											<a href="#" class="pagination__page-number">4</a>
+										</li>
+										<li class="pagination__item">
+											<span class="pagination__page-dots">...</span>
+										</li>
+										<li class="pagination__item">
+											<a href="#" class="pagination__page-number">40</a>
+										</li>
+										<li class="pagination__item">
+											<a href="#" class="pagination__page-next">
+												<svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0.344 0.944H2.072L4.832 3.668L2.072 6.392H0.344L3.116 3.668L0.344 0.944Z" fill="#404B52" />
+												</svg>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="menu__body">
+
+						</div>
+						<div class="menu__body">
+
+						</div>
+						<div class="menu__body">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20231229112413"></script>
+</body>
+
+</html>
