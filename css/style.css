@@ -800,10 +800,6 @@ body {
   }
 
   .menu__navigation {
-    padding-top: 8rem;
-  }
-
-  .menu__navigation {
     padding-bottom: 4.75rem;
   }
 
@@ -851,6 +847,10 @@ body {
 
   .menu__navigation {
     max-width: 19.125rem;
+  }
+
+  .menu__navigation {
+    padding-top: 8rem;
   }
 
   .menu__navigation {
@@ -912,10 +912,6 @@ body {
   }
 
   .menu__navigation {
-    padding-top: 6.25rem;
-  }
-
-  .menu__navigation {
     padding-bottom: 1.875rem;
   }
 
@@ -961,6 +957,10 @@ body {
 
   .header__image {
     max-width: 8.4375rem;
+  }
+
+  .menu__navigation {
+    padding-top: 6.25rem;
   }
 
   .menu__navigation {
@@ -1211,6 +1211,18 @@ body {
     }
 }
 
+@supports (padding-top: clamp( 6.25rem , -1.6923076923rem  +  10.7692307692vw , 8rem )) {
+    .menu__navigation {
+      padding-top: clamp( 6.25rem , -1.6923076923rem  +  10.7692307692vw , 8rem );
+    }
+}
+
+@supports not (padding-top: clamp( 6.25rem , -1.6923076923rem  +  10.7692307692vw , 8rem )) {
+    .menu__navigation {
+      padding-top: calc(6.25rem + 1.75 * (100vw - 73.75rem) / 16.25);
+    }
+}
+
 @supports (padding-right: clamp( 0.9375rem , -2.75rem  +  5vw , 1.75rem )) {
     .menu__navigation {
       padding-right: clamp( 0.9375rem , -2.75rem  +  5vw , 1.75rem );
@@ -1378,18 +1390,6 @@ body {
 @supports not (gap: clamp( 0.9375rem , 0.885326087rem  +  0.2608695652vw , 1.125rem )) {
     .menu__navigation {
       gap: calc(0.9375rem + 0.1875 * (100vw - 20rem) / 71.875);
-    }
-}
-
-@supports (padding-top: clamp( 6.25rem , 5.7630434783rem  +  2.4347826087vw , 8rem )) {
-    .menu__navigation {
-      padding-top: clamp( 6.25rem , 5.7630434783rem  +  2.4347826087vw , 8rem );
-    }
-}
-
-@supports not (padding-top: clamp( 6.25rem , 5.7630434783rem  +  2.4347826087vw , 8rem )) {
-    .menu__navigation {
-      padding-top: calc(6.25rem + 1.75 * (100vw - 20rem) / 71.875);
     }
 }
 
